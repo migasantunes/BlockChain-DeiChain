@@ -1,0 +1,38 @@
+[2025-05-12 16:19:52] ------------------DEIChain Log------------------
+[2025-05-12 16:19:52] START - DEIChain - PID: 4337
+[2025-05-12 16:19:52] CREATE - Transaction Pool
+[2025-05-12 16:19:52] CREATE - Blockchain Ledger
+[2025-05-12 16:19:52] START - Miner Process
+[2025-05-12 16:19:52] CREATE - Miner 1
+[2025-05-12 16:19:52] CREATE - Miner 2
+[2025-05-12 16:19:52] CREATE - Miner 3
+[2025-05-12 16:19:52] CREATE - Miner 4
+[2025-05-12 16:19:52] CREATE - Miner 5
+[2025-05-12 16:19:52] START - Main Validator Process
+[2025-05-12 16:19:52] START - Statistics process - PID: 4341
+[2025-05-12 16:19:56] SIGINT - Starting controlled shutdown
+[2025-05-12 16:19:56] DUMP LEDGER - Received signal to dump blockchain ledger
+[2025-05-12 16:19:56] =================== Start Ledger ===================
+[2025-05-12 16:19:56] =================== End Ledger ===================
+[2025-05-12 16:19:56] SIGINT - Sent to Miner process
+[2025-05-12 16:19:56] SIGINT - Sent to Validator process
+[2025-05-12 16:19:56] SIGINT - Sent to Statistics process
+[2025-05-12 16:19:56] SIGINT - Miner process received shutdown signal
+[2025-05-12 16:19:56] TERMINATED - Miner process
+[2025-05-12 16:19:56] SIGINT - Validator process received shutdown signal
+[2025-05-12 16:19:56] SIGINT - Statistics process received shutdown signal
+[2025-05-12 16:19:56] DUMP STATISTICS - Received signal to dump statistics
+[2025-05-12 16:19:56] ==================== STATISTICS ====================
+[2025-05-12 16:19:56] TOTAL OF VALIDATED BLOCKS: 0
+[2025-05-12 16:19:56] BLOCKS IN THE BLOCKCHAIN: 0
+[2025-05-12 16:19:56] TERMINATED - Validator process
+[2025-05-12 16:19:56] TERMINATED - Statistics process
+[2025-05-12 16:19:56] CLEANUP - Transaction Pool
+[2025-05-12 16:19:56] CLEANUP - Blockchain Ledger
+[2025-05-12 16:19:56] CLEANUP - Message Queue condition variable and mutex destroyed
+[2025-05-12 16:19:56] CLEANUP - Message Queue
+[2025-05-12 16:19:56] CLEANUP - Pipe mutex destroyed
+[2025-05-12 16:19:56] CLEANUP - Pipe closed
+[2025-05-12 16:19:56] CLEANUP - Pipe unlinked
+[2025-05-12 16:19:56] MUTEX_DESTROY - Log semaphore destroyed
+[2025-05-12 16:19:56] SHUTDOWN - DEIChain terminated successfully
